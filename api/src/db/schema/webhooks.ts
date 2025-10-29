@@ -1,4 +1,4 @@
-import { pgTable, text, integer, jsonb, timestamp } from 'drizzle-orm/pg-core'
+import { integer, jsonb, pgTable, text, timestamp } from 'drizzle-orm/pg-core'
 import { uuidv7 } from 'uuidv7'
 
 export const webhooks = pgTable('webhooks', {
